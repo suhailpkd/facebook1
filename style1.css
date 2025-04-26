@@ -1,0 +1,98 @@
+
+body{
+    margin: 0;
+}
+.home{
+height: 680px;
+width: 100%;
+background:#f2f4f7;
+}
+
+.logo{
+    width: 274.5px;
+    margin-top: 200px;
+    margin-left: 261.5px;
+}
+.text{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-left: 270px;
+    margin-top: 14px;
+}
+
+.login-frame{
+    height: 315px;
+    width: 365px;
+    background: #ffff;
+    margin-left: 850px;
+    margin-top: -235px;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 10px;
+    float: left;
+}
+input[type="text"]{
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    padding-left: 16.5px;
+}
+input[type="text"]::placeholder{
+color: 1px solid #dddfe2;
+}
+input[type="password"]{
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-top: 13px;
+    padding-left: 16px;
+}
+input[type="password"]::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.login{
+    border-radius: 6px;
+    height: 50px;
+    width: 365px;
+    margin-top: 15px;
+    background-color: #0866ff;
+    border: none;
+    font-size: 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.forgot{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #0866ff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.line{
+    border-color: #dddfe266;
+}
+.create-account{
+    background-color: #42b72a;
+    height: 48px;
+    width: 193px;
+    border-radius: 6px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 86px;
+    margin-top: 12.5px;
+    font-weight: bold;
+}
+#block{
+    clear: both;
+}
+.create-page{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 850px;
+}
